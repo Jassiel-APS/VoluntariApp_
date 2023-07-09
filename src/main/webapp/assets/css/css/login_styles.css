@@ -1,0 +1,43 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-fluid {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg {
+    background-image: url(../../images/logos_voluntariapp/left_login_img.png);
+    max-width: 1000px;
+    /* max-height: 1000px; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-control-icon {
+    position: relative;
+}
+
+.form-control-icon .password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none;
+}
+
+.form-control-icon .password-toggle i {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+.form-control-icon .password-toggle i:hover {
+    color: #343a40;
+}

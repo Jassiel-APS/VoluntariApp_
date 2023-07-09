@@ -1,0 +1,49 @@
+
+.container-fluid {
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.colorcito_azulito-fondo{
+    background-color: #1796FF;
+    color: white;
+}
+
+.colorcito_azulito {
+    color: #1796FF;
+}
+
+.btn_colorcito_azulito {
+    border: 1px solid #1796FF;
+    color: #1796FF;
+    padding: 20px;
+}
+
+.container {
+    border: 3px solid #1796FF;
+}
+
+
+/*  */
+.form-control-icon {
+    position: relative;
+}
+
+.form-control-icon .password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none;
+}
+
+.form-control-icon .password-toggle i {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+.form-control-icon .password-toggle i:hover {
+    color: #343a40;
+}

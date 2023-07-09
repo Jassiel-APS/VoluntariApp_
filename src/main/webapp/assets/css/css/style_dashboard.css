@@ -1,0 +1,63 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.barra-pading{
+  padding: 10px;
+}
+
+.event-card {
+  margin-bottom: 1px;
+}
+
+.event-card .event-details {
+  display: flex;
+  align-items: center;
+}
+
+.event-card .event-details img {
+  width: 180px; /* Ajusta el valor para cambiar el tamaño de la imagen */
+  height: 140px;
+  margin-right: 20px;
+}
+
+.event-card .event-details .event-info {
+  flex-grow: 1;
+}
+
+.event-card .event-details .event-actions {
+  display: flex;
+}
+
+.event-card .event-details .event-actions .event-action {
+  margin-right: 10px;
+  font-size: 30px; /* Ajusta el tamaño de los iconos */
+  color: black; /* Cambia el color de los iconos a negro */
+  text-decoration: none;
+}
+
+.text-b{
+  color: #1796FF;
+}
+
+.color-nave{
+  background-color: #1796FF;
+}
+
+.add-button{
+  color: black;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.enc{
+  height: 100px;
+}
+
+.image-event{
+  width: 100%; 
+  max-width: 1000px; 
+  max-height: 300px;
+}

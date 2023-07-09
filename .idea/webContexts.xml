@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/index.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/pages/administrators/index_admin.jsp" value="file://$PROJECT_DIR$/src/main/webapp/pages/administrators" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/pages/organizations/organizations_postulates.jsp" value="file://$PROJECT_DIR$/src/main/webapp/pages/organizations" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/pages/volunteers/volunteer_events.jsp" value="file://$PROJECT_DIR$/src/main/webapp/pages/volunteers" />
+      </map>
+    </option>
+  </component>
+</project>
